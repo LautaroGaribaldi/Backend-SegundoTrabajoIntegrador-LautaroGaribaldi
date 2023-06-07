@@ -67,6 +67,7 @@ router.post(
             email: req.user.email,
             dateOfBirth: req.user.dateOfBirth.toLocaleDateString("es-AR", { timeZone: "UTC" }),
             role: req.user.role,
+            cartId: req.user.cartId,
         };
         /*if (req.session.user.email === "adminCoder@coder.com") {
             req.session.user.role = "admin";
