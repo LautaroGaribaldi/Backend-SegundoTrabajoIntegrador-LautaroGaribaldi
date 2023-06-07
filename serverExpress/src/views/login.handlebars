@@ -1,0 +1,27 @@
+{{! <div>
+    <form id="cookieForm" onsubmit="return false">
+        <label>UserName</label>
+        <input type="text" name="userName">
+        <label>Email</label>
+        <input type="email" name="email" id="">
+        <button type="submit">Submit</button>
+    </form>
+    <button id="getCookies">Get Cookies</button>
+</div>
+
+<script src="static/js/pruebas.js"></script> }}
+
+<div>
+    <h1>Login</h1>
+    <form id="cookieForm" action="/api/session/login" method="POST">
+        <label>Email</label>
+        <input type="email" name="email" />
+        <label>Password</label>
+        <input type="password" name="password" id="" />
+        <button type="submit">Submit</button>
+        <a href="/recoveryPassword">Olvidaste tu contraseña?</a>
+    </form>
+    <div class="github">
+        <a href="/api/session/github" class="githubButton">Ingresar con Github</a>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+h1, h3 {
+    text-align: center;
+    color: blue;
+  }
+
+.pepe {
+    color: red
+}
+
+th, td {
+  border: 1px solid black;
+}
+table {
+  border: 6px solid black;
+}
+
+.conteiner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardsItems{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 3px solid aqua;
+  width: 191px;
+}
+
+.github{
+  margin-top: 40px;
+}
+
+.githubButton{
+  padding: 10px;
+  border: 3px solid rgb(148, 16, 16);
+  background-color: rgb(148, 16, 16);
+  text-decoration: none;
+  color: black;
+  border-radius: 150px;
+  margin-top: 100px;
+}
